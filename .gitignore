@@ -1,2 +1,52 @@
 # Environments
 .venv 
+.env
+.ev.local
+config/*.env
+env/
+venv/
+ENV/
+
+# Python
+__pycache__/
+*$py.class
+.Python
+
+# Jupyter Notebook
+*.ipynb_checkpoints/
+
+# Data Files
+data/raw/*
+data/processed/*
+*.csv
+*.json
+*.db
+*.sqlite
+
+# Models
+models/*.pkl
+models/*.h5
+models/*.model
+models/*.joblib
+
+# Rasa
+rasa-chatbot/models/
+rasa-chatbot/.rasa/
+rasa-chatbot/results/
+
+# Logs
+logs/*.log
+logs/*.txt
+!logs/.gitkeep
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_store
+Thumbs.db
+
+# Testing
+.pytest_cache/
+.coverage
